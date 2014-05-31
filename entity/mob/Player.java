@@ -117,6 +117,7 @@ public class Player extends Mob {
 			} else
 				sprite = Sprite.player_left_1;
 		}
+		sprite = test.getSprite();
 		screen.renderPlayer(x - 16, y - 16, sprite);
 
 	}
